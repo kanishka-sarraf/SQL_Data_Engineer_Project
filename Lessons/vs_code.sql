@@ -22,4 +22,4 @@ having count(jpf.job_id) > 3000
 order by posting_count desc
 limit 10;
 
-select job_title_short from job_postings_fact;
+select job_country from job_postings_fact;
